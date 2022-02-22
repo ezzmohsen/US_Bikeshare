@@ -2,6 +2,9 @@ import time
 import datetime
 import pandas as pd
 import numpy as np
+"""
+You need to place these Datasets at the same path of your project and open it in the same workspace in order to CITY_DATA can store this data sets without errors 
+"""
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
